@@ -112,8 +112,8 @@ async function IPv4Reset(sid) {
 }
 async function main() {
     const boxUrl = "https://fritz.box/"
-    const username = "fritz4055"
-    const password = "kissen1927"
+    const username = ""
+    const password = ""
     try {
         const sid = await getSid(boxUrl, username, password);
         if (sid) {
